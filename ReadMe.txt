@@ -1,4 +1,5 @@
 https://github.com/okovtun/PD_411_DBMS.git
+https://www.youtube.com/playlist?list=PLeqyOOqxeiIPeDGuutvPkRPYxRUHGgAEQ
 
 TODO:
 1. Скачать и установить VisualParadigm:
