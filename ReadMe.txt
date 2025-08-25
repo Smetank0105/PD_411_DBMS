@@ -2,7 +2,15 @@ https://github.com/okovtun/PD_411_DBMS.git
 https://www.youtube.com/playlist?list=PLeqyOOqxeiIPeDGuutvPkRPYxRUHGgAEQ
 
 TODO:
-1. Сделать такую же диаграмму ка кна занятиях;
+0. Штудируем теорию по типам данных:
+	https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver17
+1. Выяснить разницу между Юлианским и Григорианским календарем;
+2. Выяснить разницу между форматами времени GMT и UTC;
+3. На сколько градусов поворачивается Земля за 1 час (и за 1 минуту);
+4. Можно ли хранить номер телефона в виде целого числа?
+
+DONE:
+1. Сделать такую же диаграмму как на занятиях;
 2. Добавить экзамены;
 3. Добавить домашние задания;
 
