@@ -2,6 +2,10 @@ https://github.com/okovtun/PD_411_DBMS.git
 https://www.youtube.com/playlist?list=PLeqyOOqxeiIPeDGuutvPkRPYxRUHGgAEQ
 
 TODO:
+1. Добить Базу;
+2. Экстпортировать ERD-даипграмму в PDF-файл. и приславть его в журнал;
+
+DONE:
 0. Штудируем теорию по типам данных:
 	https://learn.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver17
 1. Выяснить разницу между Юлианским и Григорианским календарем;
