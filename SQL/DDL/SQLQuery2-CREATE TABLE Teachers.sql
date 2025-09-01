@@ -10,3 +10,4 @@ CREATE TABLE Teachers
 	birth_date		DATE			NOT NULL,
 	work_since		DATE			NOT NULL
 );
+
