@@ -1,5 +1,5 @@
 --SQLQuery2 - SELECT.sql
-USE PD_411_SQL;
+USE PD_321;
 GO
 
 --SELECT columns FROM tables;
@@ -23,11 +23,15 @@ GO
 --;
 --% - все возможные символы
 
-SELECT
-		last_name + ' ' + first_name + ' ' + middle_name	AS N'Студент',
-		group_name		AS	N'Группа',
-		direction_name	AS	N'Направление обучения'
-FROM	Students,Groups,Directions
-WHERE	[group]		=	group_id
-AND		direction	=	direction_id
-;
+--SELECT
+--		last_name + ' ' + first_name + ' ' + middle_name	AS N'Студент',
+--		group_name		AS	N'Группа',
+--		direction_name	AS	N'Направление обучения'
+--FROM	Students,Groups,Directions
+--WHERE	[group]		=	group_id
+--AND		direction	=	direction_id
+--;
+
+SELECT 
+	COUNT(stud_id)	AS	N'Количество студентов' 
+FROM Students;
