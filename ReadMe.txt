@@ -1,7 +1,15 @@
 https://github.com/okovtun/PD_411_DBMS.git
 https://www.youtube.com/playlist?list=PLeqyOOqxeiIPeDGuutvPkRPYxRUHGgAEQ
 
+Functions vs StoredProcedures:
+https://stackoverflow.com/questions/1179758/function-vs-stored-procedure-in-sql-server
+
 TODO:
+1. Процедура доьавления расписания должна сама определять учебные дни,
+   а если дисциплина в руппе не первая, то и начальную дату;
+2. При выставлении расписания предусмотреть праздники и каникулы;
+
+DONE:
 0. Сделать BackUp Базы, как *.bak, так и *.bacpack;
 1. Внести записи в таблицу с расписанием;
 2. Добавить расписание для своей группы на все дисциплины от 'ООП на C++' до 'MS SQL Server';

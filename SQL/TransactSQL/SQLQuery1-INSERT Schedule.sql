@@ -35,3 +35,5 @@ BEGIN
 		--IIF(condition, value_1, value_2) - Conditional-Ternary Operator
 		PRINT('----------------------------------------------------------')
 END
+
+SELECT * FROM Schedule;
