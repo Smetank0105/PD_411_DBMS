@@ -12,6 +12,7 @@ AS
 BEGIN
 	SET DATEFIRST 1;
 	DECLARE	@group			AS	INT		=	(SELECT group_id			FROM Groups			WHERE group_name=@group_name);
+	DECLARE @learning_days	AS	TINYINT	=	(SELECT learning_days		FROM Groups			WHERE group_id	=@group);
 	DECLARE	@discipline		AS	SMALLINT=	(SELECT discipline_id		FROM Disciplines	WHERE discipline_name LIKE @discipline_name);
 	DECLARE @lessons_count	AS	TINYINT	=	(SELECT number_of_lessons	FROM Disciplines	WHERE discipline_id = @discipline);
 	DECLARE @lesson_number	AS	TINYINT	=	1;
@@ -23,6 +24,8 @@ BEGIN
 	PRINT(@lessons_count);
 	PRINT(@start_date);
 	PRINT(@start_time);
+
+	
 
 	WHILE @lesson_number <= @lessons_count
 	BEGIN

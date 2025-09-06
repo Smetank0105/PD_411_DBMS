@@ -28,17 +28,29 @@
           <AssociatedConnUserName />
           <FullPath>SQLQuery0-Calling Procedures.sql</FullPath>
         </FileNode>
+        <FileNode Name="SQLQuery100-CREATE FUNCTION GetNextLearningDay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-QHG18FL\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-QHG18FL\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery100-CREATE FUNCTION GetNextLearningDay.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery100-CREATE FUNCTION IsLearningDay.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-QHG18FL\SQLEXPRESS:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>DESKTOP-QHG18FL\SQLEXPRESS</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQLQuery100-CREATE FUNCTION IsLearningDay.sql</FullPath>
+        </FileNode>
         <FileNode Name="SQLQuery1-INSERT Schedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-QHG18FL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-QHG18FL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>SQLQuery1-INSERT Schedule.sql</FullPath>
         </FileNode>
-        <FileNode Name="SQLQuery2-CREATE PROCEDURE sp_AddSchedule.sql">
+        <FileNode Name="SQLQuery2-CREATE PROCEDURE sp_Addchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-QHG18FL\SQLEXPRESS:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>DESKTOP-QHG18FL\SQLEXPRESS</AssociatedConnSrvName>
           <AssociatedConnUserName />
-          <FullPath>SQLQuery2-CREATE PROCEDURE sp_AddSchedule.sql</FullPath>
+          <FullPath>SQLQuery2-CREATE PROCEDURE sp_Addchedule.sql</FullPath>
         </FileNode>
         <FileNode Name="SQLQuery2-CREATE PROCEDURE sp_SelectSchedule.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:DESKTOP-QHG18FL\SQLEXPRESS:True</AssociatedConnectionMoniker>
