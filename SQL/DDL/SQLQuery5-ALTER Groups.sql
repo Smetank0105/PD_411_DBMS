@@ -3,6 +3,7 @@ USE PD_321;
 GO
 
 ALTER TABLE Groups
-ALTER COLUMN			learning_days	TINYINT;
+--ALTER COLUMN			learning_days	TINYINT;
+ADD	start_time		TIME;
 
 SELECT * FROM Groups;
