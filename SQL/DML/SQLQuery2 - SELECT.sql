@@ -14,13 +14,14 @@ GO
 --		(group_id,group_name,direction)
 --VALUES	(7,N'SU_411',2);
 
---SELECT
---		group_name		AS	N'Название группы',
---		direction_name	AS	N'Направление обучения'
---FROM	Groups,Directions
---WHERE	direction		=	direction_id
---AND		direction_name	LIKE(N'Сетевые технологии%')
---;
+SELECT
+		group_name		AS	N'Название группы',
+		direction_name	AS	N'Направление обучения',
+		learning_days	AS	N'Учебные дни'	--Пн, Ср, Пт
+FROM	Groups,Directions
+WHERE	direction		=	direction_id
+AND		direction_name	LIKE(N'Сетевые технологии%')
+;
 --% - все возможные символы
 
 --SELECT
@@ -32,6 +33,6 @@ GO
 --AND		direction	=	direction_id
 --;
 
-SELECT 
-	COUNT(stud_id)	AS	N'Количество студентов' 
-FROM Students;
+--SELECT 
+--	COUNT(stud_id)	AS	N'Количество студентов' 
+--FROM Students;
