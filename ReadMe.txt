@@ -4,6 +4,9 @@ https://www.youtube.com/playlist?list=PLeqyOOqxeiIPeDGuutvPkRPYxRUHGgAEQ
 Functions vs StoredProcedures:
 https://stackoverflow.com/questions/1179758/function-vs-stored-procedure-in-sql-server
 
+DELETE CASCADE:
+https://stackoverflow.com/questions/6260688/how-do-i-use-cascade-delete-with-sql-server
+
 TODO:
 1. Выходные не должны повторно добавляться в таблицу;
 2. Вычислить дату начала Пасхи;
